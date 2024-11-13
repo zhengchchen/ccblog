@@ -146,7 +146,7 @@ const Component = () => {
 
 ### 不再需要到处使用 `useMemo` / `useCallback`
 
-显然,那些有时会困扰我们代码的 `useMemo` 和 `useCallback` 都将消失。这是最令我兴奋的部分。不再需要为了记忆化一个 `onSubmit` 回调���在多层组件中追踪 props。不再需要面对那些相互依赖、难以理解、难以调试的 `useMemo` 和 `useCallback` 链。不再因为有人忽略了子组件的记忆化而导致整个记忆化链条失效。
+显然,那些有时会困扰我们代码的 `useMemo` 和 `useCallback` 都将消失。这是最令我兴奋的部分。不再需要为了记忆化一个 `onSubmit` 回调而在多层组件中追踪 props。不再需要面对那些相互依赖、难以理解、难以调试的 `useMemo` 和 `useCallback` 链。不再因为有人忽略了子组件的记忆化而导致整个记忆化链条失效。
 
 ### Diffing 和 协调过程的变化
 
