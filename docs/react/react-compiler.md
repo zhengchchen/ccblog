@@ -189,5 +189,3 @@ const Parent = () => {
 其他方面基本保持不变。在组件内部创建组件仍然是一个[重大的反模式](https://www.developerway.com/posts/reconciliation-in-react#part10)。我们仍然需要使用 "key" 属性来标识元素或重置状态。`Context` 的使用依然会很棘手。而关于数据获取和错误处理的一切都不在这次讨论的范围内。
 
 不过无论如何,我都迫不及待地想看到 Compiler 的发布。这似乎会让我们的 React 开发生活有一个巨大的改善。即使这意味着我要重写一半的文章和重做一半的 YouTube 视频 😅。
-
----
