@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "ccblog",
   base: "/ccblog/",
+  head:[
+    ['link', { rel: 'icon', type: 'image/png', href: '/ccblog/favicon.png' }],  // 如果是 .png
+  ],
   description: "A blog containing front-end technologies such as React, typescript, next, tailwincss, etc.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
