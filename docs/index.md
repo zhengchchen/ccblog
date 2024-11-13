@@ -7,11 +7,11 @@ hero:
   tagline: "探索现代前端技术的最佳实践"
   actions:
     - theme: brand
-      text: 开始阅读
-      link: /markdown-examples
+      text: React Compiler
+      link: /react/react-compiler
     - theme: alt
-      text: 技术文档
-      link: /api-examples
+      text: React 19
+      link: /react/react-compiler
 
 features:
   - title: 前端工程化
