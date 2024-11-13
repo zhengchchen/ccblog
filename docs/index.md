@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "CC Blog"
-  text: "探索前端工程之美：从实战到原理，构建现代 Web 应用",
+  text: "记录React、TypeScript、Next.js、Tailwind CSS等前端技术"
   tagline: "探索现代前端技术的最佳实践"
   actions:
     - theme: brand
