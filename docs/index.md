@@ -10,8 +10,8 @@ hero:
       text: React Compiler
       link: /react/react-compiler
     - theme: alt
-      text: React 19
-      link: /react/react-compiler
+      text: OAuth 2.0
+      link: /network/oatuh
 
 features:
   - title: 前端工程化
@@ -21,4 +21,3 @@ features:
   - title: UI/UX设计实现
     details: 使用Tailwind CSS构建现代化界面，探讨组件设计模式和响应式开发策略
 ---
-
