@@ -1,3 +1,5 @@
+# OAuth 2.0
+
 OAuth 是一个有关授权的网络开放标准，用来授权服务，获取用户数据，目前版本为 2.0。OAuth 2.0 的标准是 [RFC 6749](https://tools.ietf.org/html/rfc6749) 文件。
 
 ## 名词定义

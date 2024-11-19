@@ -18,7 +18,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "React",
-        items: [{ text: "React Compiler", link: "react/react-compiler" }],
+        items: [{ text: "React Compiler 和 React 19：你不再需要任何的 memo 了", link: "react/react-compiler" }],
       },
       {
         text: "Network",
@@ -26,7 +26,11 @@ export default defineConfig({
       },
       {
         text: "Css",
-        items: [{ text: "Browser Fallback", link: "css/browser-fallback" }],
+        items: [{ text: "浏览器回退机制", link: "css/browser-fallback" }],
+      },
+      {
+        text: "Antd",
+        items: [{ text: "antd 表头固定、不设置列宽且表头不换行的一种可行方案", link: "antd/table-overflow" }],
       },
     ],
 
