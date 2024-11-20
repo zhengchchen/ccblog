@@ -34,7 +34,10 @@ export default defineConfig({
       },
       {
         text: "LeetCode",
-        items: [{ text: "56. 合并区间", link: "leetcode/56" }],
+        items: [
+          { text: "56. 合并区间", link: "leetcode/56.合并区间" },
+          { text: "1456. 定长子串中元音的最大数目", link: "leetcode/1456.定长子串中元音的最大数目" },
+        ],
       },
     ],
 
