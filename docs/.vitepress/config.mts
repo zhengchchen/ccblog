@@ -32,6 +32,10 @@ export default defineConfig({
         text: "Antd",
         items: [{ text: "antd 表头固定、不设置列宽且表头不换行的一种可行方案", link: "antd/table-overflow" }],
       },
+      {
+        text: "LeetCode",
+        items: [{ text: "56. 合并区间", link: "leetcode/56" }],
+      },
     ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/zhengchchen" }],
