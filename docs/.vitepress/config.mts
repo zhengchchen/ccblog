@@ -39,6 +39,10 @@ export default defineConfig({
           { text: "1456. 定长子串中元音的最大数目", link: "leetcode/1456.定长子串中元音的最大数目" },
         ],
       },
+      {
+        text: "Next",
+        items: [{ text: "Next.js 14 和 NextAuth.js 实现身份认证系统", link: "next/next-auth" }],
+      },
     ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/zhengchchen" }],
