@@ -47,7 +47,7 @@
 
 发现此时表头固定已经生效，但在水平滚动时会出现分割线
 
-![image-20240723211149125.png](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/3d0c8ef890eb4af6949b429d22c410fa~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP6YOR5YGa6aKY5a62:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMzMyOTc4ODY1MzM0NDE5OSJ9&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1732632491&x-orig-sign=Vu5kfdz2HT4pbJtAFkgDFgkixso%3D)
+![image-20240723211149125.png](https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/3d0c8ef890eb4af6949b429d22c410fa~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP6YOR5YGa6aKY5a62:q75.awebp?rk3s=f64ab15b&x-expires=1745326799&x-signature=d4dayMosE5apxbTJQEIPnTG9GSA%3D)
 
 猜测是因为 overflow-x：visiable 造成的，进而想修改 overflow-x，改后惊人发现表头固定失效了，原来 overflow-x 也会对 sticky 造成影响。
 
